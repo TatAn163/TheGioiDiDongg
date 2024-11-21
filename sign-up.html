@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./image/anh1.jpg" alt=""></a>
+    </header>
+        <nav>
+            
+            <div class="container">
+    
+                <ul>
+                    <li><a href=""><img style="width: 150px" src="./image/logo-the-gioi-di-dong-2.jpg" alt=""></a></li>
+                    <li id="adress-form"><a href="#">Thành Phố Hồ CHí Minh<i class="fas fa-sort-down"></i></a></li>
+                   
+    
+                    <li><input type="text" placeholder="bạn tìm gì.."><i class="fas fa-search"></i></li>
+                    <li><a href=""></a><button><i class="fas fa-shopping-cart"></i>Giỏ Hàng</button></li>
+                    <li><a href="">Lịch sử Đơn Hàng</a></li>
+                    <li><a href=""><span class="btn-conter"></span><span class="btn-top">.</span>mua thẻ nạp ngay!</a></li>
+                    <li><a href="">24h công nghệ</a></li>
+                    <li><a href="">Hỏi Đáp</a></li>
+                    <li><a href="">Game app</a></li>
+                    <div class="adress-form">
+                        <div class="adress-form-content">
+                            <h2>chọn địa chỉ nhận hàng <span id="adress-close">X Đóng</span></h2>
+    
+                            <form action="">
+                                <p>chọn địa chỉ nhận hàng để biết chính xác thời gian</p>
+                                <select name="" id="">
+                                    <option value="#">--chọn địa điểm</option>
+                                    <option value="#">Thành Phố Hồ Chí Minh</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="#">--chọn Quận\Huyện</option>
+                                    <option value="#">Quận bình thạnh</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="#">--chọn phường\xã</option>
+                                    <option value="#">phường 12</option>
+                                </select>
+                                <input type="text"placeholder="Số nhà, Tên Đường">
+                                <button>Xác Nhận </button>
+    
+    
+    
+                            </form>
+    
+                        </div>
+    
+                    </div>
+    
+       
+                </ul>
+            </div>
+            
+        </nav>
+        <section class="menu-bar" >
+            <div class="container">
+                <div class="menu-bar-contet">
+                    <ul>
+                        <li><a href=""><i class="fas-fa-mobile-alt"></i>Điện Thoại</a></li>
+                        <li><a href=""><i class="fas fa-laptop"></i>Laptop</i></a></li>
+                        <li><a href=""></a><i class="fas fa-tablet">Tablet</i></li>
+                        <li><a href=""><i class="fas fa-headphones-alt"></i>Phụ kiện <i style="font-size: 20px"class="fas fa-sort-down"></i></a>
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="">cáp type c</a></li>
+                                    <li><a href="">camera</a></li>
+                                    <li><a href="">bàn phím</a></li>
+                                    <li><a href="">đồng hồ</a></li>
+                                    <li><a href="">chuột</a></li>
+                                    <li><a href="">tai nghe</a></li>
+                                    <li><a href="">sạc dự phòng</a></li>
+                                    <li><a href="">ốp lưng</a></li>
+                                    <li><a href="">loa</a></li>
+                                    <li><a href="">giá đỡ laptop</a></li>
+                                </ul>
+                            </div>
+    
+                        </li>
+                        <li><a href=""><i class="fas fa-stopwatch-20"></i>Đồng Hồ</a><i style="font-size: 20px"class="fas fa-sort-down"></i>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Casio</a></li>
+                                <li><a href="">Nakzen</a></li>
+                                <li><a href="">MOVADO</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href=""><i class="fas fa-tablet"></i>Ipad</a></li>
+                        <li><a href="">Máy cũ giá rẻ</a></li>
+                        <li><a href="">Sim, thẻ cào</a></li>
+                        <li><a href="">Trả góp, điện nước</a></li>
+                    </ul>
+    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section>
+            <div class="wrapper">
+                <div class="login">
+                    <div class="img-login">
+                        <img src="https://cdn.tgdd.vn/2022/10/banner/TGDD-540x270.png" alt="">
+                    </div>
+                    <div class="registration-box">
+                        <div class="d1 step1">
+                            <h2>Tra cứu thông tin đơn hàng</h2>
+                            <form id="frmGetVerifyCode" onsubmit="return GetVerifyCode(0, 1);">
+                                <div class="input-area">
+                                    <i class="iconoh-phone-blue input-icon"></i>
+                                    <input type="tel" name="txtPhoneNumber" id="txtPhoneNumber" onkeypress="ValidateOnlyNumber(event)" placeholder="Nhập số điện thoại mua hàng" autocomplete="off" maxlength="10">
+                                </div>
+                                <label class="hide"></label>
+                                <button type="submit" class="btn">Tiếp tục</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container-footer">
+                 <div class="footer_row">
+                     <div class="footer__col">
+                         <ul>
+                             <li>Tích điểm Quà tặng VIP</li>
+                             <li>Lịch sử mua hàng</li>
+                             <li>Tìm hiểu về mua trả góp</li>
+                             <li>Chính sách bảo hành</li>
+                         </ul>
+                     </div>
+                     <div class="footer__col">
+                         <ul>
+                             <li>Giới thiệu công ty (MWG.vn)</li>
+                             <li>Tuyển dụng</li>
+                             <li>Gửi góp ý, khiếu nại</li>
+                             <li>Tìm siêu thị (2.976 shop)</li>
+                         </ul>
+                     </div>
+                     <div class="footer__col">
+                         <ul>
+                             <li><strong>Tổng đài hỗ trợ</strong></li>
+                             <li>Gọi mua: <a href="" class="text-color">1900 232 460</a> (8:00 - 21:30)</li>
+                             <li>Khiếu nại: <a href="" class="text-color">1900 232 460</a> (8:00 - 21:30)</li>
+                             <li>Bảo hành: <a href="" class="text-color">1900 232 460</a> (8:00 - 21:30)</li>
+                         </ul>
+                     </div>
+                     <div class="footer__col">
+                             <div class="f-social">
+                                 <a href="" class="link-fb">
+                                    <img src="image/hinh4.jpg" alt="">
+                                     3886.8k Fan
+                                 </a>
+                                 <a href="" class="link-ytb">
+                                     <img src="image/hinh2.jpg" alt="">
+                                     867k Đăng ký
+                                 </a>
+             
+                                 <a rel="nofollow" href="" target="_blank" class="imgzalo">
+                                     <img class="lazy lazyloaded"  alt="zalo" width="18" height="18" loading="lazy" src="./image/hinh3.jpg">
+                                     Zalo TGDĐ
+                                 </a>
+                             </div>
+                             <div class="f-certify">
+                                 <a rel="nofollow" href="" target="_blank">
+                                     <i class="icon-congthuong"></i>
+                                 </a>
+                                 <a rel="nofollow" href="" target="_blank">
+                                     <i class="icon-khieunai"></i>
+                                 </a>
+                                 <a rel="nofollow" class="dmca-badge" href="" target="_blank">
+                                     <i class="icon-protected"></i>
+                                 </a>
+                                 <a class="_ncsc" rel="nofollow" href="" title="Chung nhan Tin Nhiem Mang" target="_blank">
+                                     <img src="./image/hinh1.jpg" class="lazy lazyloaded" />
+                                 </a>
+                             </div>
+                         </div>
+                 </div>
+                 
+            </div>
+        
+            <div class="copyright">
+                <section class="container" >
+                    <p>
+                        © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH &amp; ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.<br>
+                        Địa chỉ: 128 Trần Quang Khải, P.Tân Định, Q.1, TP.Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, Đ. D1, P.Tân Phú, TP.Thủ Đức, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Email: hotrotmdt@thegioididong.com.
+                        <a rel="nofollow" class="nofollow" href="/thoa-thuan-su-dung-trang-mxh">Xem chính sách sử dụng</a>
+                    </p>
+                </section>
+            </div>
+         </footer>
+</body>
+</html>
